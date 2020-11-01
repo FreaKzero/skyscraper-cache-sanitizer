@@ -57,3 +57,61 @@ Example config.json (default values here if no json is given)
     "definedorder": "disney,educational,sports,shooter,rpg,puzzle,shootemup,racing,beatemup,cards,quiz,topdown,strategy,platform,adventure,reaction,arcade,simulation,action,maze,pinball,boardgame,movie,creativity"
   }
 ```
+
+Example using:
+
+```
+python3 clean.py ./test 
+======================================================================
+Skyscraper Cache Sanitizer - 2020 FreaKzero (http://www.freakzero.com)
+======================================================================
+
+Start Cleaning Process ? (y/n)y
+Reading/Cleaning ./test/cache/gba/db.xml
+Writing ./test/cache/gba/db.xml
+Reading/Cleaning ./test/cache/megadrive/db.xml
+Writing ./test/cache/megadrive/db.xml
+Reading/Cleaning ./test/cache/nes/db.xml
+Writing ./test/cache/nes/db.xml
+Reading/Cleaning ./test/cache/snes/db.xml
+Writing ./test/cache/snes/db.xml
+* Used Fallback Categories for 5 Games
+[T]: Arcade Classics
+[P]: Mega Drive
+[O]: centipede, compilation, missilecommand, multigame, multiviev, ultrapong
+[W]: multiviev 
+
+[T]: Caesars Palace
+[P]: Mega Drive
+[O]: casiono, dice, gamble, rouletter, slotmachine
+[W]: gamble 
+
+[T]: Fun 'n Games
+[P]: Mega Drive
+[O]: multitype
+[W]: multitype 
+
+[T]: Soul Blade
+[P]: Mega Drive
+[O]: unlicensed
+[W]: unlicensed 
+
+[T]: Action 52
+[P]: Nintendo
+[O]: collection, games, multiangle, multitype, unlicensed
+[W]: collection 
+
+* Player sanitization statistics
+1       x       1121
+1-2     x       840
+1-4     x       96
+1-9     x       1
+1-6     x       8
+1-3     x       15
+1-8     x       28
+1-10    x       2
+1-5     x       6
+1-12    x       2
+1-16    x       2
+🐙  ~/openretro-skyscraper-sanitizer (master) 
+```
