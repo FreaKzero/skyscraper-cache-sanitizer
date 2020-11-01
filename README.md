@@ -12,6 +12,8 @@ to 1 Category based on a user defined priority list to
 - Fixes Player Strings
 
 - writes db.xml and creates a backup for every platform named db.xml.orig automatically
+
+- "Dry Run" to check the sanitized data is possible and logs out errors/problems as also sanitizion statistics for players
 ```
 ======================================================================
 Skyscraper Cache Sanitizer - 2020 FreaKzero (http://www.freakzero.com)
