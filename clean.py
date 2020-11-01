@@ -112,9 +112,9 @@ if args.mode is not None:
 
 if args.player is not None:
   MODES = ["MAXPLAYER", "DEFAULT"]
-  ARG = args.mode.upper()
+  ARG = args.player.upper()
   if ARG not in MODES:
-    q("{} is not a valid player parameter (MAXPLAYER or DEFAULT)".format(args.mode))
+    q("{} is not a valid player parameter (MAXPLAYER or DEFAULT)".format(args.player))
   else:
     PLAYERFORMAT = ARG
 
