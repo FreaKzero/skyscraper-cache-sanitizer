@@ -11,6 +11,7 @@ to 1 Category based on a user defined priority list to
 
 - Fixes Player Strings
 
+- writes db.xml and creates a backup for every platform named db.xml.orig automatically
 ```
 ======================================================================
 Skyscraper Cache Sanitizer - 2020 FreaKzero (http://www.freakzero.com)
