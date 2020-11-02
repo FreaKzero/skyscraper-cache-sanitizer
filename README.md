@@ -1,6 +1,6 @@
 # Skyscraper Cache Sanitizer
 
-Script runs very well on Openretro scraped data, didnt try other scrapedata from skyscraper
+Script runs very well on Openretro scraped data (with default config), didnt try other scrapedata from skyscraper
 
 - Sanitizes multiple Tagclouds like:
 `action, horizontal, jumper, platform, scifi, shooter, sideways`
